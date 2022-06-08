@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.color-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.circle{
+    width:100px;
+    height: 100px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+    background-blend-mode: color;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.pink{
+    background-color: violet;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.aqua{
+    background-color: aqua;
+}
+
+
+
+.color-plus-container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.primary-color{
+    text-align: center;
+}
+
+.color-container-primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.color-container-secondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.color-row{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin-top: 43px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

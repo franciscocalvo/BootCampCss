@@ -1,0 +1,14 @@
+p{
+    background-color: greenyellow;
+    width: 50%;
+}
+
+#hidden{
+    overflow: hidden;
+    height: 100px;
+}
+
+#left-bar{
+    overflow: scroll;
+    width: 300px;
+}

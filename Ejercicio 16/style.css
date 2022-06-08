@@ -1,0 +1,37 @@
+header{
+    background-color: red;
+    width: 1365px;
+    height: 100px;
+
+}
+
+nav{
+    background-color: #007fff;
+    width: 1365px;
+    height: 30px;
+    position: relative;
+
+}
+
+section {
+    background-color: pink;
+    width: 800px;
+    height: 500px;
+    float:left
+}
+
+aside{
+    background-color: #fe80fe;
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+footer{
+    background-color: greenyellow;
+    width: 1365px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 0px;
+    clear: both;
+}

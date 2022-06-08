@@ -1,0 +1,14 @@
+#bordes{
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+
+    border-top: dotted green;
+
+    border-right: 5px dashed blue;
+
+    border-left: double black;
+
+    border-bottom: 2px solid black;
+}

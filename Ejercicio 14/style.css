@@ -1,0 +1,32 @@
+.container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    background-color: #b9da8f;
+}
+
+.iron-border {
+    width: 300px;
+    border-radius: 150px;
+    background-color: #d3d1c8;
+    box-shadow: black 3px 0px 15px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    margin: 50px;
+    display: flex;
+}
+
+.gradiente {
+    background-image: repeating-radial-gradient(circle,    red 0px,    red 15px,    white 15px,    white 30px,    red 30px,    red 45px,    white 45px,    white 60px,    red 60px,    red 75px,    white 75px,    white 90px,    red 90px,    red 105px,    white 105px,    white 130px    );
+    width: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin: 50px;
+    display: flex;
+}

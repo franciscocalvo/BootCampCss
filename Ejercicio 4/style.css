@@ -1,0 +1,85 @@
+/*----1----*/
+*{
+    color:black
+}
+
+/*----2----*/
+p{
+    color: yellow;
+}
+
+/*----3----*/
+#title-1{
+    color:red
+}
+
+/*----4----*/
+.bg-yellow{
+    background-color: yellow;
+}
+
+/*----5----*/
+[id]{
+    background-color: whitesmoke;
+}
+
+/*----6----*/
+[id="title-1"]{
+    color: black;
+}
+
+/*----7----*/
+[href="https://www.yahoo.com"]{
+    color: chocolate;
+}
+
+/*----8----*/
+[class^="title"]{
+    color: blue;
+}
+
+/*----9----*/
+[href$=".com"]{
+    color: royalblue;
+}
+
+/*----10----*/
+[class|="title"]{
+    color: sienna;
+}
+
+/*----11----*/
+[href*=127]{
+    color: yellowgreen;
+}
+
+/*----12----*/
+[href^="http"]{
+    color: olive;
+}
+
+/*----13----*/
+a,p,h1 {
+    color: violet;
+}
+
+/*----14----*/
+main>p {
+    background-color: aquamarine;
+}
+
+
+/*----15----*/
+h1 + *{
+    color: mediumspringgreen;
+}
+
+/*----16----*/
+h1 ~ *{
+    color:darkred
+}
+
+/*----17----*/
+main>*{
+    background-color: aliceblue;
+}
